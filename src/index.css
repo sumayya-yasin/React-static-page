@@ -1,0 +1,130 @@
+:root {
+  --primary-blue: #61DAFB;
+  --bg-header: #21222A;
+  --bg-body: #282D35;
+  --body-text: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background: var(--bg-body);
+  color: var(--body-text);
+
+  background-image: url(./images/react-logo-half.png);
+  background-repeat: no-repeat;
+  background-position: 100% 80%;
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: -1px;
+  margin: 0;
+}
+
+/* Navigation bar */
+
+.header {
+  height: 80px;
+  background: var(--bg-header);
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  padding: 16px 16px;
+  height: 100%;
+}
+
+.header__logo {
+  width: 35px;
+}
+
+.header__text {
+  color: var(--primary-blue);
+  font-size: 1.4rem;
+  font-weight: 700;
+  padding: 0 5px;
+}
+
+@media screen and (min-width: 1024px) {
+
+  .header {
+    height: 100px;
+  }
+
+  .header__nav {
+    padding: 3rem;
+  }
+
+  .header__logo {
+    width: 60px;
+  }
+
+  .header__text {
+    padding: 1rem;
+    font-size: 2rem;
+  }
+
+}
+
+/* Main body */
+
+.main {
+  padding: 2.5rem 3rem;
+}
+
+main>h1 {
+  font-size: 2.4rem;
+}
+
+.facts-list {
+  margin-top: 40px;
+}
+
+.facts-list>li {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-block: 15px;
+}
+
+.facts-list>li::marker {
+  color: #61DAFB;
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-size: 16%;
+    background-position-x: right;
+    background-position-y: 50%;
+  }
+
+  .main {
+    width: 70%;
+    padding: 4rem;
+    margin: 0 auto;
+  }
+
+  main>h1 {
+    font-size: 3.5rem;
+  }
+
+  .facts-list {
+    width: 100%;
+  }
+
+  .facts-list>li {
+    font-size: 2rem;
+    line-height: 30px;
+    padding-block: 12px;
+
+  }
+}
