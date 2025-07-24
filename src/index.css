@@ -113,16 +113,11 @@ main>h1 {
     margin: 0 auto;
   }
 
-  main>h1 {
-    font-size: 3rem;
-  }
-
   .facts-list {
     width: 100%;
   }
 
   .facts-list>li {
-    font-size: 1.7rem;
     line-height: 30px;
     padding-block: 12px;
 
