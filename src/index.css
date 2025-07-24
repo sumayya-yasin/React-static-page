@@ -69,7 +69,6 @@ h3 {
 
   .header__text {
     padding: 1rem;
-    font-size: 2rem;
   }
 
 }
@@ -111,6 +110,10 @@ main>h1 {
     width: 70%;
     padding: 4rem;
     margin: 0 auto;
+  }
+
+  main>h1 {
+    font-size: 2rem;
   }
 
   .facts-list {
