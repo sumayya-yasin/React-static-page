@@ -1,12 +1,29 @@
-# React + Vite
+# React Static Facts Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a static webpage built with React as part of the Scrimba Learn React course. The page displays fun facts about React, styled with custom CSS and is fully responsive for all devices.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Static content about React
+- Responsive design
+- Custom CSS styling
+- Built with React and Vite
 
-## Expanding the ESLint configuration
+## Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Check out the deployed site here: [Live here](https://reactfact.netlify.app/)
+
+## Getting Started
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/your-username/react-static-page.git
+   ```
+2. Install dependencies:
+   ```
+   npm install
+   ```
+3. Start the development server:
+   ```
+   npm run dev
+   ```
